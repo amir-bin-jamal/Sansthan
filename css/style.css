@@ -166,8 +166,7 @@ a {
 }
 
 .main-header-wrapper {
-  /* background: linear-gradient(89.91deg, #42731f 0%, #649202 100%); */
-  background: red;
+  background: linear-gradient(89.91deg, #42731f 0%, #649202 100%);
   box-shadow: 0 2px 25px 0 rgb(54 66 117 / 12%);
 }
 
