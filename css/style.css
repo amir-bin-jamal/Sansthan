@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
 
 * {
   box-sizing: border-box;
@@ -104,8 +105,8 @@ a {
 
 @media (max-width: 420px) {
   #myBtn {
-    width: 30px !important;
-    height: 30px !important;
+    width: 45px !important;
+    height: 45px !important;
   }
   #myBtn p {
     display: none !important;
@@ -186,7 +187,7 @@ a {
 
 .welcomeTo {
   color: var(--white);
-  font-family: "oswald";
+  font-family: "Oswald";
   font-size: 0.9rem;
   font-weight: 400;
   text-align: center;
