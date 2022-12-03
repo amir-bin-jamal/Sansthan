@@ -67,21 +67,6 @@ a {
   text-decoration: none;
 }
 
-/* .btn-default {
-  background-color: var(--secondary);
-  border-radius: 2px;
-  color: var(--white);
-  padding: 0.8em;
-  font-size: 0.85rem;
-  border: 1px solid var(--secondary);
-}
-
-.btn-default:hover {
-  background-color: var(--primary-light);
-  color: var(--primary);
-  transition: all 0.2s ease;
-} */
-
 .btn-default {
   background-color: var(--primary-light);
   color: var(--primary);
@@ -117,11 +102,11 @@ a {
   border-radius: 40px;
 }
 
-.btm-top i{
+.btn-top i {
   padding: 0;
 }
 
-.btn-top p{
+.btn-top p {
   padding: 0;
 }
 
