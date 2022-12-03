@@ -187,7 +187,7 @@ a {
 .welcomeTo {
   color: var(--white);
   font-family: "oswald";
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   font-weight: 400;
   text-align: center;
   display: none;
