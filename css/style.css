@@ -25,7 +25,7 @@ img {
 
 @media (max-width: 360px) {
   :root {
-    font-size: 80%;
+    font-size: 80% !important;
   }
   .center-header h1 {
     font-size: 1.5rem !important;
@@ -102,6 +102,20 @@ a {
   border-radius: 40px;
 }
 
+@media (max-width: 360px) {
+  #myBtn {
+    width: 30px !important;
+    height: 30px !important;
+  }
+  #myBtn p {
+    display: none !important;
+  }
+
+  #myBtn i {
+    display: block !important;
+  }
+}
+
 .btn-top i {
   padding: 0;
 }
@@ -170,6 +184,21 @@ a {
   box-shadow: 0 2px 25px 0 rgb(54 66 117 / 12%);
 }
 
+.welcomeTo {
+  color: var(--white);
+  font-family: "oswald";
+  font-size: 1.1rem;
+  font-weight: 400;
+  text-align: center;
+  display: none;
+}
+
+@media (max-width: 990px) {
+  .welcomeTo {
+    display: block;
+  }
+}
+
 .navbar-main {
   display: flex;
   justify-content: space-between;
@@ -216,9 +245,9 @@ a {
   height: 100%;
 }
 
-.carousel {
+/* .carousel {
   height: 24em;
-}
+} */
 
 .updates-marquee-wrapper {
   background: var(--secondary-light);
@@ -231,6 +260,13 @@ a {
 
 .updates-item a {
   color: var(--text-color);
+}
+
+@media (max-width: 991px) {
+  .news-updates ul li {
+    display: inline-block !important;
+    margin: 0 3em;
+  }
 }
 
 .news-updates ul li {
@@ -290,7 +326,7 @@ a {
 
 .name {
   color: var(--text-color);
-  font-size: 0.9em;
+  font-size: 1rem;
   font-weight: 600;
   margin-bottom: 0.3em;
 }
@@ -303,7 +339,7 @@ a {
 }
 
 .designation {
-  font-size: 0.6em;
+  font-size: 0.7rem;
   font-weight: 600;
 }
 
@@ -315,7 +351,6 @@ a {
 .purpose-wrap {
   margin-top: 1.5em;
   padding: 1.5em 1.5em 2.1em 1.5em;
-
 }
 
 .purpose-wrap ul li {
@@ -429,6 +464,22 @@ a {
   cursor: pointer;
 }
 
+.gallery-img p {
+  display: none;
+  color: var(--white);
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.gallery-img:hover p {
+  display: block;
+  position: absolute;
+  z-index: 9999;
+  top: 0.5em;
+  left: 0.5em;
+  transition: all 0.5s ease-in-out;
+}
+
 .gallery-img::after {
   content: "";
   position: absolute;
@@ -436,9 +487,9 @@ a {
   right: 0;
   bottom: 0;
   left: 0;
-  transition: all 0.4s ease;
+  transition: all 0.4s ease-in-out;
 
-  transform: scale(0);
+  transform: scale(0.8);
 }
 
 .gallery-img:hover::after {
@@ -470,6 +521,21 @@ a {
   background: linear-gradient(78.82deg, #42731f 0%, #649202 105.17%);
   padding: 2em;
   margin-top: 2em;
+}
+
+@media (max-width: 360px) {
+  .footer-inst {
+    display: block !important;
+    text-align: center !important;
+    margin: 0 auto !important;
+  }
+}
+
+@media (max-width: 360px) {
+  .inst-details-footer h3 {
+    text-align: center !important;
+    margin-top: 0.5em !important;
+  }
 }
 
 .footer-inst {
@@ -538,6 +604,13 @@ p.last-update {
 .footer-details {
   display: flex;
   justify-content: space-around;
+}
+
+@media (max-width: 767px) {
+  .footer-details {
+    margin: 2em 0;
+    text-align: center;
+  }
 }
 
 .last-update {
